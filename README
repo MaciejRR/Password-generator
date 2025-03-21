@@ -1,0 +1,18 @@
+**Opis projektu:**
+Generator Haseł to prosty program napisany w Pythonie, który umożliwia generowanie silnych, losowych haseł. Aplikacja posiada graficzny interfejs użytkownika (GUI) oparty na Tkinter, dzięki czemu użytkownik może łatwo ustawić długość hasła oraz wybrać opcje dotyczące użycia wielkich liter, cyfr i znaków specjalnych.
+
+Projekt jest podzielony na dwa moduły:
+- `passw_gen.py` – zawiera logikę generowania haseł.
+- `gui.py` – zawiera interfejs graficzny, dzięki któremu użytkownik może wprowadzać dane i wyświetlać wynik.
+
+##Funkcje
+
+- **Określanie długości hasła:** Użytkownik wprowadza liczbę znaków.
+- **Wybór opcji:** Możliwość zaznaczenia, czy hasło ma zawierać duże litery, cyfry i znaki specjalne.
+- **Kopiowanie do schowka:** Wygenerowane hasło można łatwo skopiować do schowka.
+- **Bezpieczeństwo:** Użycie modułu `secrets` gwarantuje, że generowane hasło jest bezpieczne i trudne do przewidzenia.
+
+##Wymagania
+
+- Python 3.x (np. Python 3.6 lub nowszy)
+- Tkinter (zwykle dołączony standardowo do Pythona)
