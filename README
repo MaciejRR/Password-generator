@@ -1,18 +1,31 @@
-**Opis projektu:**
-Generator Haseł to prosty program napisany w Pythonie, który umożliwia generowanie silnych, losowych haseł. Aplikacja posiada graficzny interfejs użytkownika (GUI) oparty na Tkinter, dzięki czemu użytkownik może łatwo ustawić długość hasła oraz wybrać opcje dotyczące użycia wielkich liter, cyfr i znaków specjalnych.
+# 🔐 Password Generator with GUI
 
-Projekt jest podzielony na dwa moduły:
-- `passw_gen.py` – zawiera logikę generowania haseł.
-- `gui.py` – zawiera interfejs graficzny, dzięki któremu użytkownik może wprowadzać dane i wyświetlać wynik.
+Prosty i przyjazny użytkownikowi generator silnych haseł stworzony w Pythonie, wyposażony w intuicyjny interfejs graficzny z możliwością konfiguracji.
 
-##Funkcje
+---
 
-- **Określanie długości hasła:** Użytkownik wprowadza liczbę znaków.
-- **Wybór opcji:** Możliwość zaznaczenia, czy hasło ma zawierać duże litery, cyfry i znaki specjalne.
-- **Kopiowanie do schowka:** Wygenerowane hasło można łatwo skopiować do schowka.
-- **Bezpieczeństwo:** Użycie modułu `secrets` gwarantuje, że generowane hasło jest bezpieczne i trudne do przewidzenia.
+## 🚩 Funkcjonalności:
 
-##Wymagania
+- ✅ **Generowanie silnych haseł** o dowolnej długości (minimum 8 znaków)
+- ✅ **Wybór zestawu znaków**: wielkie litery, cyfry, znaki specjalne
+- ✅ **Graficzny interfejs użytkownika** (Tkinter)
+- ✅ **Opcja szybkiego kopiowania** hasła do schowka
+- ✅ **Przejrzysty i modułowy kod**
 
-- Python 3.x (np. Python 3.6 lub nowszy)
-- Tkinter (zwykle dołączony standardowo do Pythona)
+---
+
+## 🛠️ Technologie i biblioteki:
+
+- **Python 3.x**
+- **Tkinter** (wbudowana biblioteka GUI)
+- **secrets** (bezpieczne generowanie losowych ciągów znaków)
+
+---
+
+## 🚀 Instalacja i uruchomienie projektu:
+
+### 1. Klonowanie repozytorium:
+
+```bash
+git clone https://github.com/MaciejRR/password-generator.git
+cd password-generator
